@@ -1,0 +1,52 @@
+1)cd ~
+
+2)pwd
+
+3)mkdir test1
+
+4)cd c:/bash\test1
+
+5)touch 1.txt
+  touch 2.txt
+  touch 3.txt
+
+6)ls
+
+7)cd ~
+
+8)mkdir test2
+
+9)rm test2
+
+10)rm 2.txt
+
+11)cd ~
+   mkdir test3
+   touch 1.txt
+   touch 2.txt
+
+12)rm test3
+
+13)cd ~
+   mkdir test4
+
+14)cd c:/bash\test1
+   mv 1.txt C:\Users\nskfo\test4
+   mv 3.txt C:\Users\nskfo\test4
+
+15)echo "line" >> C:\Users\nskfo\test4/1.txt 
+   echo "line" >> C:\Users\nskfo\test4/1.txt 
+   echo "line" >> C:\Users\nskfo\test4/1.txt
+ 
+16)cat C:\Users\nskfo\test4/1.txt
+
+17)echo "line" >> C:\Users\nskfo\test4/3.txt 
+   echo "line" >> C:\Users\nskfo\test4/3.txt 
+   echo "line" >> C:\Users\nskfo\test4/3.txt 
+
+18)head 3.txt 1.txt
+
+19)nano 1.txt
+
+
+

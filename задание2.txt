@@ -1,0 +1,53 @@
+1)cd ~
+
+2)mkdir test3
+
+3)touch 4.txt
+  echo "row1" >> C:\Users\nskfo\test3/4.txt 
+  echo "row2" >> C:\Users\nskfo\test3/4.txt 
+  echo "row3" >> C:\Users\nskfo\test3/4.txt
+  echo "row4" >> C:\Users\nskfo\test3/4.txt
+  touch 5.txt
+  echo "row1" >> C:\Users\nskfo\test3/5.txt 
+  echo "row2" >> C:\Users\nskfo\test3/5.txt 
+  echo "row3" >> C:\Users\nskfo\test3/5.txt
+  echo "row4" >> C:\Users\nskfo\test3/5.txt
+  touch 6.txt
+  echo "row1" >> C:\Users\nskfo\test3/6.txt 
+  echo "row2" >> C:\Users\nskfo\test3/6.txt 
+  echo "row3" >> C:\Users\nskfo\test3/6.txt
+  echo "row4" >> C:\Users\nskfo\test3/6.txt
+
+4)sed '2!d' 5.txt
+
+5)cd C:\Users\nskfo\test3
+  grep -i "row" 4.txt
+  grep -i "row" 5.txt
+  grep -i "row" 6.txt
+  
+
+6)cat 6.txt | wc -l
+
+7) find . -name "5.txt"
+
+8)find . -type f -name "5.txt" -delete
+
+9)echo "test" >> C:\Users\nskfo\test3/4.txt
+
+10)ex -s -c '%s/test/fail/g|x' 4.txt
+
+11)echo "test" >> C:\Users\nskfo\test3/4.txt
+
+12)ps aux
+
+13)kill 666
+
+14)ping artsiomrusau.com
+
+15)ping -c 5 artsiomrusau.com
+
+16)curl https://petstore.swagger.io/v2/pet/findByStatus?status=available
+
+17)curl -X POST -H "Content-Type: application/json" \ -d '{"id": 54652,"username":"valodia","firstName":"string","lastName":"string","email":"string","password":"secret","phone":"string","userStatus":0} \ https://petstore.swagger.io/v2/user
+
+
